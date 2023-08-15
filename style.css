@@ -1,0 +1,352 @@
+.main{
+    width: 100%;
+    height: 50px;
+ background-color: black;
+ padding-top: 1px;
+ position: fixed;
+ z-index: 1;
+
+
+}
+.main_logo{
+    background-color: #030303;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center; 
+    float: left;
+    margin-left: 13rem;
+}
+.modi{
+    width: 80rem;
+
+}
+.navi_list{
+    display: flex;
+    justify-content:space-evenly;
+    
+    
+}
+
+.navi_list li{
+    text-decoration: none;
+    
+}
+.navi_list li a{
+    text-decoration: none;
+    color:#89898d;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+}
+.navi_list li a:hover{
+    color:  #fff;
+}
+.svg:hover{
+    fill: #fff;
+}
+
+
+
+.logo{
+    width: 130px;
+    height:20px;
+    margin-left: 50px;
+    margin-top: 7px;
+}
+.body_1{
+    width:100%;
+    height: 713px;
+    background-color: blanchedalmond;
+    background-image: url(images/new_first_image.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    position: relative;   
+}
+.body1_text{
+    width:45%;
+    height:695px;
+    color: #fff;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-family: 'Amazon Ember', sans-serif;
+    
+}
+.heading_1{
+    font-size:300%;
+    font-weight: 500;
+    padding-left: 35px;
+    padding-top: 35px;
+    
+}
+#para_1{
+    font-size: 140%;
+    font-weight: 400;
+    font-family: 'Amazon Ember', sans-serif;
+    padding-left:35px;
+
+}
+
+.button_1{
+    background-color:#0f79af;
+    color: white;
+    border: none;
+    border-radius: 3px;
+   padding: 18px 80px;
+   margin-left: 35px;
+   text-decoration: none;
+   text-align: center;
+   font-size:110%;
+   cursor:pointer;
+}
+.button_1:hover{
+    background-color:#34acd7;
+}
+.body_2{
+    width: 100%;
+    height: 460px;
+    background-color: beige;
+    padding: 1px;
+    background-image: url(images/second_image.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.body2_text{
+    color:white;
+    padding-left: 56%;
+    font-family: 'Amazon Ember', sans-serif;  
+}
+.heading_2{
+    font-size:300%;
+    font-weight: 500;
+    padding-left: 35px;
+    padding-top: 35px;
+    
+}
+#para_2{
+    font-size: 125%;
+    font-weight: 400;
+    font-family: 'Amazon Ember', sans-serif;
+    padding-left:35px;
+
+}
+.button_2{
+    background-color:#0f79af;
+    color: white;
+    border: none;
+    border-radius: 3px;
+   padding: 18px 105px;
+   margin-left: 35px;
+   margin-top:25px;
+   text-decoration: none;
+   text-align: center;
+   font-size:110%;
+   cursor: pointer;
+}
+.button_2:hover{
+    background-color:#34acd7;
+}
+
+.body_3{
+    display:flex ;
+    background-color:#34acd7;
+    width: 100%;
+    height:500px;
+}
+.col_1{
+    
+    background-color: white;
+    width: 50%;
+    height:600px; 
+    
+}
+.col_2{
+    width: 50%;
+    height:600px; 
+   background-color:#ffffff;
+   
+}
+.container{
+    height:32rem;
+    width: 40rem;
+    background-color: #ffffff;
+    margin-top: 45px;
+    margin-left: 55px;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   gap: 2px;
+   border: nu;
+
+}
+.container img{
+  width: 100%;
+  height: 8rem;
+  align-self: center;
+  border: none;
+}
+.item:hover {
+    box-shadow: 0 0 9px 4px rgba(0, 0, 0, 0.9);
+
+}
+
+.content{
+    height: 300px;
+    width: 553px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: black;
+    font-family: 'Amazon Ember', sans-serif;
+}
+.con_head{
+    font-size:266%;
+    font-weight: 100;
+}
+.con_para{
+    font-size: 24px;
+    font-weight:normal;
+    
+}
+.body_4{
+    width: 100%;
+    height: 650px;
+    background-color: beige;
+    padding: 1px;
+    background-image: url(images/third_image.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.body4_text{
+    color:white;
+    padding-left: 56%;
+    font-family: 'Amazon Ember', sans-serif;
+    padding-top: 85px;  
+}
+.heading_4{
+    font-size:300%;
+    font-weight: 500;
+    padding-left: 35px;
+    padding-top: 35px;
+    
+}
+#para_4{
+    font-size: 125%;
+    font-weight: 400;
+    font-family: 'Amazon Ember', sans-serif;
+    padding-left:35px;
+
+}
+.button_4{
+    background-color:#0f79af;
+    color: white;
+    border: none;
+    border-radius: 3px;
+   padding: 18px 105px;
+   margin-left: 35px;
+   margin-top:25px;
+   text-decoration: none;
+   text-align: center;
+   font-size:110%;
+   cursor: pointer;
+}
+.button_4:hover{
+    background-color:#34acd7;
+}
+.body_5{
+   width: 100%;
+   height: 600px;
+   background-image: url(images/fourth_image.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.body5_text{
+    width:45%;
+    height:595px;
+    color: #fff;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-family: 'Amazon Ember', sans-serif;
+    
+}
+.heading_5{
+    font-size:300%;
+    font-weight: 500;
+    padding-left: 35px;
+    padding-top: 35px;
+    
+}
+#para_5{
+    font-size: 140%;
+    font-weight: 400;
+    font-family: 'Amazon Ember', sans-serif;
+    padding-left:35px;
+
+}
+
+.button_5{
+    background-color:#0f79af;
+    color: white;
+    border: none;
+    border-radius: 3px;
+   padding: 18px 80px;
+   margin-left: 35px;
+   text-decoration: none;
+   text-align: center;
+   font-size:110%;
+   cursor:pointer;
+}
+.button_5:hover{
+    background-color:#34acd7;
+}
+
+.bottom{
+    width: 100%;
+    height:180px;
+    background-color: #161617;
+    display: flex;
+    justify-content: center;
+}
+.bottom_por{
+    width:30%;
+    height:130px;
+    background-color:#161617;
+    
+}
+.bottom_logo{
+    width: 140px;
+    height: 60px;
+    background-color:#161617;
+    margin-top: 26px;
+    margin-left: 165px;
+    
+}
+.footer_img{
+    height: 38px;
+    padding-left: -17px;
+    padding-top: 9px;
+}
+.bottom_text{
+    width: 100%;
+    height: 10px;
+    background-color:#161617;
+    
+}
+.bottom_link{
+    text-decoration: none;
+    text-align: center;
+    padding-left: 38px;
+}
+.last_text{
+    color: #89898d;
+    padding-left: 80px;
+    
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
